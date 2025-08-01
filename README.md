@@ -12,20 +12,15 @@ This project analyzes over 7 million U.S. traffic accident records (2016–2023)
 ## 📁 Structure
 ```
 accident-risk-analysis/
-├── data/                        # Raw/sample datasets (omit large files from repo)
-│   └── us_accidents_sample.csv
-├── notebooks/                   # Jupyter notebooks for each stage
-│   ├── eda_preprocessing.ipynb    # Cleaning & EDA
-│   ├── clustering_modeling.ipynb  # DBSCAN & KMeans
-│   └── severity_classification.ipynb # ML classification (XGBoost, RandomForest)
-├── dashboards/
-│   └── streamlit_app.py         # (Optional) Interactive visual dashboard
-├── visuals/                     # Charts, maps, and saved visual assets
-│   ├── heatmap.png
-│   └── confusion_matrix.png
-├── requirements.txt             # Python dependencies
+├── data/ # Raw/sample datasets (omit large files from repo)
+│ └── us_accidents_sample.csv
+├── notebooks/
+│ └── accident_analysis_complete.ipynb # Complete data workflow & modeling
 ├── README.md
-└── LICENSE
+├── LICENSE
+└── final_report.pdf # Comprehensive project report with visuals
+
+
 ```
 
 ## 📊 Key Features
@@ -42,7 +37,8 @@ accident-risk-analysis/
 - Actionable insights: Findings for city planners, safety officials, and drivers
 
 ## 📄 Final Report
-📎 [Capstone Paper (PDF)](https://your-shared-link-here)
+📎 [Capstone Paper (PDF)](https://docs.google.com/document/d/1pAmnLH08LuIgo3SzkLOL_EfycgM-XZQ_4q_nAfZBKks/edit?usp=sharing)
+
 
 ## 👤 Lead Contributor
 **Isagani Julian Hernandez III**  
